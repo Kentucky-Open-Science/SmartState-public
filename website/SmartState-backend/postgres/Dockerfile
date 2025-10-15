@@ -1,4 +1,4 @@
-FROM postgres:16.0-alpine
+FROM postgres:16.5-alpine
 RUN apk add --no-cache sed
 
 COPY init.sql /init.sql
